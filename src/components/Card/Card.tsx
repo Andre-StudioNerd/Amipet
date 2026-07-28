@@ -3,7 +3,7 @@ import type { Pet } from "../../types";
 
 const Card = ({ pet }: { pet: Pet }) => {
   return (
-    <div className="bg-[#195b8b] rounded-lg shadow-md p-6 w-full flex flex-col items-center justify-center">
+    <div className="bg-[#195b8b] rounded-lg shadow-md p-6 w-full flex flex-col items-center justify-center border-6 border-[#efa83e]">
       <img
         src={pet.image}
         alt={pet.name}
@@ -13,7 +13,9 @@ const Card = ({ pet }: { pet: Pet }) => {
       <p className="text-lg text-[#ffffff] mt-2 text-justify">
         {pet.description}
       </p>
-      <p className="text-lg text-[#000000] my-2 text-center">{pet.location}</p>
+      <p className="text-lg text-[#000000] my-2 text-center font-bold">
+        {pet.location}
+      </p>
       <Link to="/contact">
         <p
           className="
