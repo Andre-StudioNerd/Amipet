@@ -1,5 +1,4 @@
 import logo from "../../assets/amipet.png";
-import user from "../../assets/user.svg";
 import { useLocation, useNavigate } from "react-router";
 
 const Header = () => {
