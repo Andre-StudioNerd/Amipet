@@ -85,6 +85,15 @@ const SignInUp = () => {
           <h1 className="text-2xl font-bold mb-4 text-[#3772FF]">
             Já tem conta? Faça seu login:
           </h1>
+          <h2 className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            Usuário Teste:
+          </h2>
+          <p className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            Email: email.com
+          </p>
+          <p className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            password: "123123"
+          </p>
           <Input
             type="email"
             placeholder="Email"
