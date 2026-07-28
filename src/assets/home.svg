@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 24" width="20" height="24">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 23.36v-15.34l9.66-7.66 9.54 7.66v15.34h-7.02v-9.11h-5.19v9.11zm1.8-1.92h3.39v-9.1h8.79v9.1h3.42v-12.46l-7.74-6.23-7.86 6.23z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #36d6ad } 
+		.s1 { fill: #195b8b } 
+	</style>
+	<g clip-path="url(#cp1)">
+		<path class="s0" d="m0 23.36v-15.34l9.66-7.66 9.54 7.66v15.34h-7.02v-9.11h-5.19v9.11zm1.8-1.92h3.39v-9.1h8.79v9.1h3.42v-12.46l-7.74-6.23-7.86 6.23z"/>
+		<path id="Camada 1" fill-rule="evenodd" class="s1" d="m130-65v167h-247v-167z"/>
+	</g>
+</svg>

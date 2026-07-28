@@ -1,0 +1,88 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Scooby",
+      "age": "3 anos",
+      "details": "Porte grande",
+      "location": "São Paulo, SP",
+      "description": "Scooby é um cão dócil, divertido e muito companheiro. Apesar de ser um pouco medroso, conquista todos com seu jeito carismático, adora petiscos, brincadeiras e está sempre pronto para viver novas aventuras ao lado de uma família amorosa.",
+      "image": "/images/scooby.png"
+    },
+    {
+      "id": "2",
+      "name": "Muttley",
+      "age": "1 ano",
+      "details": "Porte Pequeno",
+      "location": "Rio de Janeiro, RJ",
+      "description": "Muttley é um cachorro esperto e muito divertido, conhecido por sua famosa risada e seu jeito malandro. Apesar de adorar uma boa travessura, é um companheiro leal e cheio de personalidade, sempre pronto para arrancar sorrisos e viver novas aventuras ao lado de uma família que lhe dê muito carinho.",
+      "image": "/images/muttley.png"
+    },
+    {
+      "id": "3",
+      "name": "Garfield",
+      "age": "3 anos",
+      "details": "Porte pequeno",
+      "location": "Belo Horizonte, MG",
+      "description": "Garfield é um gato tranquilo, carismático e muito preguiçoso. Adora passar o dia descansando em um cantinho confortável, mas também aprecia a companhia de quem lhe oferece carinho e atenção. Com seu jeitão divertido e personalidade marcante, é o companheiro ideal para um lar calmo e acolhedor.",
+      "image": "/images/garfield.png"
+    },
+    {
+      "id": "4",
+      "name": "Astro",
+      "age": "4 anos",
+      "details": "Porte grande",
+      "location": "Curitiba, PR",
+      "description": "Astro é um cachorro leal, inteligente e muito protetor. Sempre disposto a acompanhar sua família em qualquer aventura, ele combina um jeito brincalhão com um coração enorme. Carinhoso e fiel, adora estar por perto de quem ama e é o companheiro perfeito para um lar cheio de alegria.",
+      "image": "/images/astro.png"
+    },
+    {
+      "id": "5",
+      "name": "Pluto",
+      "age": "2 anos",
+      "details": "Porte Médio",
+      "location": "São Paulo, SP",
+      "description": "Pluto é um cachorro alegre, carinhoso e cheio de energia. Extremamente fiel à sua família, adora brincar, passear e demonstrar seu afeto de todas as formas. Com seu jeito curioso e divertido, conquista facilmente a todos e será um companheiro inseparável em qualquer aventura.",
+      "image": "/images/pluto.png"
+    },
+    {
+      "id": "6",
+      "name": "Tom",
+      "age": "1 ano",
+      "details": "Porte Pequeno",
+      "location": "Rio de Janeiro, RJ",
+      "description": "Tom é um gato esperto, curioso e muito brincalhão. Sempre pronto para uma nova aventura, adora correr, explorar e transformar qualquer momento em diversão. Apesar de seu jeito travesso, é um companheiro carinhoso e fiel, perfeito para uma família que goste de um pet cheio de personalidade.",
+      "image": "/images/tom.png"
+    },
+    {
+      "id": "7",
+      "name": "Bidu",
+      "age": "3 anos",
+      "details": "Porte pequeno",
+      "location": "Belo Horizonte, MG",
+      "description": "Bidu é um cachorro inteligente, curioso e muito companheiro. Sempre atento ao que acontece ao seu redor, adora explorar novos lugares e brincar com quem está por perto. Com seu jeito leal e carinhoso, conquista facilmente o coração de todos e será um amigo inseparável para sua nova família.",
+      "image": "/images/bidu.png"
+    },
+    {
+      "id": "8",
+      "name": "Coragem",
+      "age": "4 anos",
+      "details": "Porte pequeno",
+      "location": "Curitiba, PR",
+      "description": "Coragem é um cachorro doce, leal e muito protetor. Embora seja um pouco medroso diante de situações desconhecidas, nunca hesita em cuidar de quem ama. Carinhoso e cheio de personalidade, está sempre pronto para enfrentar qualquer desafio ao lado de sua família, tornando-se um companheiro fiel e inesquecível.",
+      "image": "/images/coragem.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "f59a",
+      "name": "andre",
+      "email": "email.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "phone": "1111",
+      "city": "111111",
+      "about": "111111"
+    }
+  ]
+}
