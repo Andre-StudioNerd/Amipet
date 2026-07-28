@@ -83,6 +83,20 @@
       "phone": "1111",
       "city": "111111",
       "about": "111111"
+    },
+    {
+      "id": "d798",
+      "name": "aline",
+      "email": "deco.luisfernandes@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    },
+    {
+      "id": "0dfd",
+      "name": "aline",
+      "email": "email2@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123"
     }
   ]
 }
