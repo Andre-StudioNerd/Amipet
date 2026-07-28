@@ -13,7 +13,7 @@ const Card = ({ pet }: { pet: Pet }) => {
       <p className="text-lg text-[#ffffff] mt-2 text-justify">
         {pet.description}
       </p>
-      <p className="text-lg text-[#ffffff] my-2 text-center">{pet.location}</p>
+      <p className="text-lg text-[#000000] my-2 text-center">{pet.location}</p>
       <Link to="/contact">
         <p
           className="
