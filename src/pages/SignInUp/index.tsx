@@ -60,6 +60,15 @@ const SignInUp = () => {
             Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo
             hoje? Vem com a gente!
           </h2>
+          <h2 className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            Usuário Teste:
+          </h2>
+          <p className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            Email: email.com
+          </p>
+          <p className="text-lg text-gray-500 mb-4 max-w-1/3 text-center">
+            password: "123123"
+          </p>
           <div className="flex flex-col items-center justify-center">
             <Button onClick={() => setAccessMode("login")}>
               Já tenho conta
