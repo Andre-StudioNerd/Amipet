@@ -16,17 +16,6 @@ const Header = () => {
           onClick={() => !isSignInUp && navigate("/")}
         />
       </div>
-      <div className="flex items-center gap-4">
-        {!isSignInUp && (
-          <img
-            className="w-[50px] h-[50px] cursor-pointer"
-            src={user}
-            alt="user icon"
-            title="Meu perfi"
-            onClick={() => navigate("/profile")}
-          />
-        )}
-      </div>
     </div>
   );
 };
