@@ -10,7 +10,7 @@ import SignInUp from "../pages/SignInUp";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen bg-gray-400">
       <Header />
       {children}
       <Footer />
