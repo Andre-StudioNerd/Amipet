@@ -37,7 +37,7 @@ const SignInUp = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh]">
+    <div className="flex flex-col min-h-screen w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
       {accessMode === "" && (
         <>
           <h1

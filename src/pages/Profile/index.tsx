@@ -37,7 +37,7 @@ const Profile = () => {
     return alert("Erro ao atualizar perfil");
   };
   return (
-    <div className="flex flex-col mb-20 min-h-screen w-1/3 mx-auto">
+    <div className="flex flex-col min-h-screen w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
       <h1
         className="
     text-2xl
