@@ -71,6 +71,15 @@
       "location": "Curitiba, PR",
       "description": "Coragem é um cachorro doce, leal e muito protetor. Embora seja um pouco medroso diante de situações desconhecidas, nunca hesita em cuidar de quem ama. Carinhoso e cheio de personalidade, está sempre pronto para enfrentar qualquer desafio ao lado de sua família, tornando-se um companheiro fiel e inesquecível.",
       "image": "/images/coragem.png"
+    },
+    {
+      "id": "9",
+      "name": "Snoopy",
+      "age": "4 anos",
+      "details": "Porte pequeno",
+      "location": "Curitiba, PR",
+      "description": "Snoopy é um cachorro criativo, tranquilo e muito carismático. Dono de uma imaginação sem limites, adora transformar qualquer momento em uma grande aventura. Carinhoso, leal e cheio de charme, é o companheiro perfeito para uma família que procura um amigo divertido e inseparável.",
+      "image": "/images/snoopy.png"
     }
   ],
   "users": [
