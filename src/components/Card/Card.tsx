@@ -7,7 +7,7 @@ const Card = ({ pet }: { pet: Pet }) => {
       <img
         src={pet.image}
         alt={pet.name}
-        className="w-40 h-40 object-cover rounded-full border-3 border-[#efa83e]"
+        className="w-40 h-40 object-cover rounded-full border-6 border-[#efa83e]"
       />
       <h2 className="text-2xl font-bold text-[#efa83e] mt-4">{pet.name}</h2>
       <p className="text-lg text-[#ffffff] mt-2 text-justify">
