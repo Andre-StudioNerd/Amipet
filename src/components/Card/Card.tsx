@@ -10,7 +10,7 @@ const Card = ({ pet }: { pet: Pet }) => {
         className="w-40 h-40 object-cover rounded-full"
       />
       <h2 className="text-2xl font-bold text-[#efa83e] mt-4">{pet.name}</h2>
-      <p className="text-lg text-[#ffffff] mt-2 text-center">
+      <p className="text-lg text-[#ffffff] mt-2 text-justify">
         {pet.description}
       </p>
       <p className="text-lg text-[#ffffff] my-2 text-center">{pet.location}</p>
