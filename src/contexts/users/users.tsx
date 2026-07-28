@@ -21,7 +21,9 @@ const UsersContext = createContext<{
 
 export const UsersProvider = ({ children }: { children: React.ReactNode }) => {
   const fetchUsers = async () => {
-    const data = await fetchData<User[]>("http://localhost:3001/users");
+    const data = await fetchData<User[]>(
+      "https://my-json-server.typicode.com/Andre-StudioNerd/Amipet/users",
+    );
 
     return data;
   };
@@ -35,7 +37,7 @@ export const UsersProvider = ({ children }: { children: React.ReactNode }) => {
       throw new Error("User already exists");
     }
     const data = await fetchData<User, UserRegister>(
-      "http://localhost:3001/users",
+      "https://my-json-server.typicode.com/Andre-StudioNerd/Amipet/users",
       "POST",
       user,
     );
@@ -58,7 +60,7 @@ export const UsersProvider = ({ children }: { children: React.ReactNode }) => {
 
   const updateUser = async (user: User) => {
     const data = await fetchData<User, User>(
-      `http://localhost:3001/users/${user.id}`,
+      `https://my-json-server.typicode.com/Andre-StudioNerd/Amipet/users/${user.id}`,
       "PUT",
       user,
     );
