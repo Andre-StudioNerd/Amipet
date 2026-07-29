@@ -1,6 +1,7 @@
 import Input from "../../components/Input/Input";
 import Button from "../../components/Button/Button";
 import { useNavigate } from "react-router";
+import pata from "../../assets/logo_pata_cinza.png";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -11,9 +12,11 @@ const Contact = () => {
     }, 1500);
   };
   return (
-    <div className="flex flex-col mb-20 min-h-screen w-1/3 mx-auto">
-      <h1
-        className="
+    <div className="flex flex-col mb-20 min-h-screen w-full max-w-2xl mx-auto px-4 bg-gray-400 m-[10px]">
+      <div className="p-[5%]">
+        {" "}
+        <h1
+          className="
     text-2xl
     font-bold
     text-[#3772FF]
@@ -24,12 +27,19 @@ const Contact = () => {
     mb-8
     text-center
     rounded-xl
+    p-[10%]
   "
-      >
-        Envie uma mensagem para a pessoa ou instituição que está cuidando do
-        animal:
-      </h1>
-      <p className="text-black mt-4 mb-4 text-justify">
+        >
+          Envie uma mensagem para a pessoa ou instituição que está cuidando do
+          animal:
+        </h1>
+      </div>
+      <img
+        className="w-20 cursor-pointer my-[30px] mx-auto block"
+        src={pata}
+        alt="logo Amipet"
+      />
+      <p className="text-black mt-4 mb-4 text-justify p-[5%]">
         A funcionalidade de envio de mensagens (está travada) deste site possui
         apenas a interface visual (frontend) para fins de demonstração.
         Atualmente, ela não está integrada a um backend ou serviço de
@@ -39,7 +49,7 @@ const Contact = () => {
         e poderá ser integrada a um serviço de backend ou API em futuras versões
         do projeto.
       </p>
-      <div className="flex flex-col items-center justify-center gap-4 mt-10">
+      <div className="flex flex-col items-center justify-center gap-4 mt-10 p-[5%]">
         <Input
           label="Nome"
           placeholder="Insira seu nome"
@@ -66,6 +76,11 @@ const Contact = () => {
         />
         <Button onClick={handleSendMessage}>Enviar mensagem</Button>
       </div>
+      <img
+        className="w-20 cursor-pointer my-[30px] mx-auto block"
+        src={pata}
+        alt="logo Amipet"
+      />
     </div>
   );
 };

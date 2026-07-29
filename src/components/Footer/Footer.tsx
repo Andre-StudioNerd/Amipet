@@ -1,9 +1,14 @@
+import logo from "../../assets/logo_pata.png";
+
 const Footer = () => {
   return (
-    <div className="bg-black text-white font-bold text-lg p-2 w-full h-[50px] fixed bottom-0 text-center">
-      Copyright © {new Date().getFullYear()} Amipet | Projeto fictício sem fins
-      lucrativos.
-    </div>
+    <footer className="bg-black text-white font-bold text-lg p-3 w-full text-center flex flex-col items-center justify-center gap-2">
+      <img className="w-14 cursor-pointer" src={logo} alt="logo Amipet" />
+      <p>
+        Copyright © {new Date().getFullYear()} Amipet | Projeto fictício sem
+        fins lucrativos.
+      </p>
+    </footer>
   );
 };
 
