@@ -1,20 +1,40 @@
 import { useState, useEffect, createContext, useContext } from "react";
+
+import type { ReactNode } from "react";
 import type { Pet } from "../../types";
-import { fetchData } from "../../utils";
 
-const PetsContext = createContext<{ pets: Pet[] }>({ pets: [] });
+interface PetsContextType {
+  pets: Pet[];
+}
 
-export const PetsProvider = ({ children }: { children: React.ReactNode }) => {
+const PetsContext = createContext<PetsContextType>({
+  pets: [],
+});
+
+export const PetsProvider = ({ children }: { children: ReactNode }) => {
   const [pets, setPets] = useState<Pet[]>([]);
 
-  const fetchPets = async () => {
-    const data = await fetchData<Pet[]>(
-      "https://my-json-server.typicode.com/Andre-StudioNerd/Amipet/pets",
-    );
-    setPets(data);
-  };
-
   useEffect(() => {
+    const fetchPets = async () => {
+      try {
+        const response = await fetch(
+          "https://api.jsonbin.io/v3/b/6ac91f0cac6210605a2347d4/latest",
+        );
+
+        if (!response.ok) {
+          throw new Error(
+            `Erro ao buscar os pets: ${response.status} ${response.statusText}`,
+          );
+        }
+
+        const data: { record: { pets: Pet[] } } = await response.json();
+
+        setPets(data.record.pets);
+      } catch (error) {
+        console.error("Erro ao carregar os pets:", error);
+      }
+    };
+
     fetchPets();
   }, []);
 
@@ -24,9 +44,5 @@ export const PetsProvider = ({ children }: { children: React.ReactNode }) => {
 };
 
 export const usePets = () => {
-  const context = useContext(PetsContext);
-  if (!context) {
-    throw new Error("usePets must be used within a PetsProvider");
-  }
-  return context;
+  return useContext(PetsContext);
 };

@@ -33,5 +33,9 @@
     "globals": "^16.0.0",
     "json-server": "^1.0.0-beta.3",
     "vite": "^6.3.5"
+  },
+  "allowScripts": {
+    "@tailwindcss/oxide@4.1.8": true,
+    "esbuild@0.25.5": true
   }
 }
